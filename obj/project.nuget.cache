@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "C7pAgNwdhY6LyPpIIRG+6hqJUdVgY1F0rsNC0DC9f8T4D15euvMzTheQsHIeyc+IEmxWiYcg80pq2IqnIHxtmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SURAJKRP\\OneDrive - Capgemini\\Desktop\\Dotnet app\\CSharpP\\CSharpP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.5.0\\microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\microsoft.identitymodel.logging\\6.5.0\\microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.5.0\\microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.5.0\\system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
+    "C:\\Users\\SURAJKRP\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharpP depends on System.IdentityModel.Tokens.Jwt (>= 6.0.0) but System.IdentityModel.Tokens.Jwt 6.0.0 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 6.5.0 was resolved.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
