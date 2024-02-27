@@ -44,6 +44,10 @@ public class JwtTokenDecoder
         }
     }
 
+    public void new(){
+        
+    }
+
     public static void Main(string[] args)
     {
         // Replace 'your_token_here' with the actual JWT token
