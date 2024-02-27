@@ -21,6 +21,27 @@ public class JwtTokenDecoder
         {
             Console.WriteLine("Invalid JWT token.");
         }
+
+
+        //created dev branch
+         public static void DToken(string token)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var jsonToken = handler.ReadToken(token) as JwtSecurityToken;
+
+        if (jsonToken != null)
+        {
+            Console.WriteLine("Decoded Token Claims:");
+
+            foreach (var claim in jsonToken.Claims)
+            {
+                Console.WriteLine($"{claim.Type}: {claim.Value}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid JWT token.");
+        }
     }
 
     public static void Main(string[] args)
